@@ -1,0 +1,95 @@
+body
+{
+	background-image: url(bg.avif);
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+	
+}
+h1{
+	margin: 40px;
+	color: rgb(95, 22, 22);
+	text-shadow: 3px 3px 3px #4443432c;;
+
+}
+
+
+.login_div{
+	background: rgba(233, 233, 233, 0.63);
+	padding: 15px;
+	border-radius: 15px;
+	width: 40%;
+	text-align: center;
+	border-top: 5px solid rgb(68, 67, 67) ;
+	margin-bottom: 20px;
+}
+.inputNames{
+	width: 70%;
+	padding: 5px;
+	background-color: azure;
+	color: rgb(68, 67, 67);
+	border: 1px solid ;
+	border-radius: 10px;
+
+}
+
+.btLogin{
+	background-color:#444343;
+	padding: 5px;
+	width: 100px;
+	color:azure;
+	border-radius: 30px;
+}
+#header{
+	width: 100%;
+	padding: 20px;
+	color: #444343;
+	background-color:#5f5e5e17;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#placar h3{
+	color: rgb(66, 17, 17);
+	text-shadow: 3px 3px 3px #4443432c;;
+	padding: 5px;
+}
+#player1Name, #player2Name{
+	display: inline;
+	font-size: 20px;
+}
+#word
+{
+	width: 40%;
+	padding: 5px;
+	background-color: azure;
+	color: rgb(68, 67, 67);
+	border: 1px solid ;
+	border-radius: 10px;
+}
+#wordDisplay
+{
+	letter-spacing: 5px;
+	color: rgb(66, 17, 17);
+	font-size: 30px;
+}
+#output
+{
+	text-align: left;
+	background: rgba(233, 233, 233, 0.63);
+	padding: 15px;
+	border-radius: 15px;
+	border-top: 5px solid rgb(68, 67, 67) ;
+	margin-top: 10px;
+	float: none;
+	font-size: 18px;
+	color: rgb(66, 17, 17);
+}
+.btSend{
+	background-color:rgb(66, 17, 17);
+	padding: 5px;
+	width: 100px;
+	color:azure;
+	border-radius: 30px;
+	margin-bottom: 20px;
+}
